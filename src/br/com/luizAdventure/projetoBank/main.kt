@@ -1,11 +1,59 @@
-import br.com.luizAdventure.projetoBank.modelo.*
-import br.com.luizAdventure.projetoBank.modelo.ContaCorrente
-import br.com.luizAdventure.projetoBank.teste.testaObjects
+import br.com.luizAdventure.projetoBank.modelo.Endereco
 
 
 fun main() {
 
-    val endereco = Endereco(
+    val x = 10
+    var y = x
+    y++
+
+    println(x)
+    println(y)
+
+    println("--------------------------------------")
+
+    val p1 = Pessoa("Luiz")
+    val p2 = p1
+    p2.nome = "Sara"
+
+    println(p1.nome)
+    println(p2.nome)
+
+    println("--------------------------------------")
+
+    val palavra = "palavra"
+    var palavraNova = palavra
+    palavraNova= "palavraNova"
+    val subString = palavra.substring(4)
+
+    println(palavra)
+    println(palavraNova)
+    println(subString)
+
+    println("--------------------------------------")
+
+    for(c in palavra)
+        println(c)
+
+    println("--------------------------------------")
+
+    for(c in palavra)
+        println(c =='a')
+}
+
+class Pessoa(var nome: String)
+
+
+
+
+
+
+
+
+
+
+
+    /*val endereco = Endereco(
         logradouro = "Rua Ventania",
         complemento = "impar",
         cep = "00000-000"
@@ -50,4 +98,4 @@ fun imprime(valor: Any): Any {
     return valor
 
 
-}
+}*/
