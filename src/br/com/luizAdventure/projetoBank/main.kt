@@ -3,6 +3,50 @@ import br.com.luizAdventure.projetoBank.modelo.Endereco
 
 fun main() {
 
+    val luiz = Pessoa(
+        nome = "Luiz",
+        idade = 39
+    )
+    luiz.fala()
+    println(luiz)
+
+
+    // copy data class destructring declaration
+    val luiz2 = luiz.copy()
+    println(luiz2)
+
+
+    val documento = Documento(
+        rg = "11111111-1",
+        cpf = "222.222.222-22"
+    )
+    println(documento)
+
+
+    //component function data class destructring declaration
+    val (rg ,cpf) = documento
+    println("rg: $rg e cpf: $cpf")
+
+
+}
+
+data class Pessoa( val nome: String, val idade: Int){
+
+    fun fala(){
+        println("emite som")
+    }
+}
+
+data class Documento( val rg: String, val cpf: String)
+
+
+
+
+
+
+
+    /*fun main() {
+
     val x = 10
     var y = x
     y++
@@ -41,7 +85,7 @@ fun main() {
         println(c =='a')
 }
 
-class Pessoa(var nome: String)
+class Pessoa(var nome: String)*/
 
 
 
@@ -53,7 +97,10 @@ class Pessoa(var nome: String)
 
 
 
-    /*val endereco = Endereco(
+    /*fun main() {
+
+
+    val endereco = Endereco(
         logradouro = "Rua Ventania",
         complemento = "impar",
         cep = "00000-000"
