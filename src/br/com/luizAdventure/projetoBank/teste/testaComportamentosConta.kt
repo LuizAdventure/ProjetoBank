@@ -1,11 +1,17 @@
-import modelo.ContaCorrente
-import modelo.ContaPoupanca
+import br.com.luizAdventure.projetoBank.modelo.Cliente
+import br.com.luizAdventure.projetoBank.modelo.ContaCorrente
+import br.com.luizAdventure.projetoBank.modelo.ContaPoupanca
 
 fun testaComportamentosConta() {
-    val contaLuiz = ContaCorrente(titular = "Luiz", numero = 1000)
+
+    val luiz = Cliente(nome= "Luiz", cpf= "", senha= 1)
+
+    val contaLuiz = ContaCorrente(titular = luiz, numero = 1000)
     contaLuiz.deposita(200.0)
 
-    val contaSara = ContaPoupanca(numero = 1001, titular = "Sara")
+    val sara = Cliente(nome= "Sara", cpf= "", senha= 2)
+
+    val contaSara = ContaPoupanca(numero = 1001, titular = sara)
     contaSara.deposita(300.0)
 
     println(contaSara.titular)

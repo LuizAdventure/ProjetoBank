@@ -1,4 +1,4 @@
-package modelo
+package br.com.luizAdventure.projetoBank.modelo
 
 class Analista(
     nome: String,

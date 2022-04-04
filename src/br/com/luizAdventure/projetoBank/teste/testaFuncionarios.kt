@@ -1,7 +1,4 @@
-import modelo.Analista
-import modelo.CalculadoraBonificacao
-import modelo.Diretor
-import modelo.Gerente
+import br.com.luizAdventure.projetoBank.modelo.*
 
 fun testaFuncionarios() {
     val luiz = Analista(
@@ -64,6 +61,15 @@ fun testaFuncionarios() {
     calculadora.registra(sara)
     calculadora.registra(bryan)
     calculadora.registra(brandon)
+    //calculadora.registra(1)
+
+    //chamada utilizando any
+    //val calculadoraAny = CalculadoraBonificacaoAny()
+    //calculadoraAny.registra(luiz)
+   // calculadoraAny.registra(sara)
+   // calculadoraAny.registra(bryan)
+    //calculadoraAny.registra(brandon)
+    //calculadoraAny.registra(1)
 
     println("total de bonificação: ${calculadora.total}")
 }

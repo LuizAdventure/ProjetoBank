@@ -1,13 +1,33 @@
-import modelo.ContaCorrente
-import modelo.ContaPoupanca
+import br.com.luizAdventure.projetoBank.modelo.Cliente
+import br.com.luizAdventure.projetoBank.modelo.ContaCorrente
+import br.com.luizAdventure.projetoBank.modelo.ContaPoupanca
+import br.com.luizAdventure.projetoBank.modelo.Endereco
 
 fun testaContasDiferentes() {
     val contaCorrente = ContaCorrente(
-        titular = "Luiz",
+        titular = Cliente(
+            nome = "Bryan",
+            cpf = "111.111.111-11",
+            senha = 1,
+            endereco = Endereco(
+                logradouro = "Rua ventania"
+            )
+
+        ),
         numero = 1000
     )
+
+    println("titular ")
+    println("nome do titular ${contaCorrente.titular.nome}")
+    println("cpf titular ${contaCorrente.titular.cpf}")
+    println("endereco titular ${contaCorrente.titular.endereco.logradouro}")
+
     val contaPoupanca = ContaPoupanca(
-        titular = "Sara",
+        titular = Cliente(
+            nome = "Brandon",
+            cpf = "",
+            senha = 2
+        ),
         numero = 1001
     )
 

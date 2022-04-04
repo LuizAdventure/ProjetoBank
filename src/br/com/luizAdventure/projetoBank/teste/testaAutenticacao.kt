@@ -1,7 +1,7 @@
-import modelo.Cliente
-import modelo.Diretor
-import modelo.Gerente
-import modelo.SistemaInterno
+import br.com.luizAdventure.projetoBank.modelo.Cliente
+import br.com.luizAdventure.projetoBank.modelo.Diretor
+import br.com.luizAdventure.projetoBank.modelo.Gerente
+import br.com.luizAdventure.projetoBank.modelo.SistemaInterno
 
 fun testaAutenticacao() {
     val gerente = Gerente(
