@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f72e9773-f652-41a8-be54-5ffa52b8a5bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/modelo/Documento.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/modelo/Pessoa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/teste/testaAny.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/teste/testaDataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/teste/testaImpressoes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Luiz\.android\avd\Pixel_4_API_24.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\lalberol\.android\avd\Nexus_10_API_30.avd]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
@@ -118,5 +125,16 @@
     <MESSAGE value="classe String" />
     <MESSAGE value="classe data class" />
     <option name="LAST_COMMIT_MESSAGE" value="classe data class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/main.kt</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
