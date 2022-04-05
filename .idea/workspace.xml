@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f72e9773-f652-41a8-be54-5ffa52b8a5bb" name="Default Changelist" comment="entendendo a pilha de execução">
+    <list default="true" id="f72e9773-f652-41a8-be54-5ffa52b8a5bb" name="Default Changelist" comment="entendendo exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luizAdventure/projetoBank/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649180496815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="entendendo exception">
+      <created>1649184245697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649184245697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +133,8 @@
     <MESSAGE value="classe String" />
     <MESSAGE value="classe data class" />
     <MESSAGE value="entendendo a pilha de execução" />
-    <option name="LAST_COMMIT_MESSAGE" value="entendendo a pilha de execução" />
+    <MESSAGE value="entendendo exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="entendendo exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
